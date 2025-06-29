@@ -289,7 +289,7 @@ export default function PhotographyWebsite() {
           <div
             className="w-full h-full bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('/images/best3.jpg')`,
+              backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('/images/pre2.jpg')`,
             }}
           />
         </motion.div>
@@ -371,7 +371,7 @@ export default function PhotographyWebsite() {
               viewport={{ once: true }}
             >
               <Image
-                src="/images/self1.jpg"
+                src="/images/me.jpg"
                 alt="cine_Bhimraj"
                 width={800}
                 height={1000}
@@ -473,7 +473,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-96 md:h-[500px]">
                   <Image
-                    src="/images/best1.jpg"
+                    src="/images/pre1.jpg"
                     alt="Wedding couple portrait"
                     width={800}
                     height={1000}
@@ -493,7 +493,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-50 md:h-60">
                   <Image
-                    src="/images/IMG_3.JPG"
+                    src="/images/pre4.JPG"
                     alt="Wedding rings detail"
                     width={600}
                     height={800}
@@ -513,7 +513,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
                   <Image
-                    src="/images/image2.JPG"
+                    src="/images/bride3.JPG"
                     alt="Wedding bouquet"
                     width={600}
                     height={800}
@@ -533,7 +533,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
                   <Image
-                    src="/images/best2.jpg"
+                    src="/images/best3.JPG"
                     alt="Wedding ceremony"
                     width={800}
                     height={400}
@@ -553,7 +553,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-32 md:h-40">
                   <Image
-                    src="/images/IMG_3.JPG"
+                    src="/images/best5.JPG"
                     alt="Wedding detail"
                     width={400}
                     height={400}
@@ -573,7 +573,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-32 md:h-40">
                   <Image
-                    src="/images/image2.JPG"
+                    src="/images/bride1.jpg"
                     alt="Wedding table setting"
                     width={600}
                     height={400}
@@ -611,7 +611,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-96 md:h-[500px]">
                   <Image
-                    src="/images/image1.JPG"
+                    src="/images/best2.JPG"
                     alt="Prewedding couple"
                     width={800}
                     height={1000}
@@ -631,7 +631,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-69 md:h-96">
                   <Image
-                    src="/images/home3.jpg"
+                    src="/images/bride2.jpg"
                     alt="Prewedding portrait"
                     width={800}
                     height={1000}
@@ -652,7 +652,7 @@ export default function PhotographyWebsite() {
                 >
                   <div className="relative overflow-hidden bg-gray-100 h-32 md:h-44">
                     <Image
-                      src="/images/best2.jpg"
+                      src="/images/pre2.jpg"
                       alt="Prewedding moment"
                       width={400}
                       height={300}
@@ -671,7 +671,7 @@ export default function PhotographyWebsite() {
                 >
                   <div className="relative overflow-hidden bg-gray-100 h-32 md:h-44">
                     <Image
-                      src="/images/best3.jpg"
+                      src="/images/pre3.jpg"
                       alt="Prewedding detail"
                       width={400}
                       height={300}
@@ -708,7 +708,7 @@ export default function PhotographyWebsite() {
                 viewport={{ once: true }}
                 className="col-span-12 md:col-span-8 group cursor-pointer"
               >
-                <div className="relative overflow-hidden bg-gray-100 h-64 md:h-80">
+                <div className="relative overflow-hidden bg-gray-100 h-60 md:h-80">
                   <Image
                     src="/images/mat1.jpg"
                     alt="Maternity portrait"
