@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import Image from "next/image"
 
 // Define a type for rating feedback
 interface RatingFeedback {
@@ -369,10 +370,13 @@ export default function PhotographyWebsite() {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <img
-                src="/self1.jpg"
+              <Image
+                src="/images/self1.jpg"
                 alt="cine_Bhimraj"
+                width={800}
+                height={1000}
                 className="w-full h-auto object-cover"
+                priority
               />
             </motion.div>
 
@@ -468,9 +472,11 @@ export default function PhotographyWebsite() {
                 className="col-span-12 md:col-span-6 row-span-2 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-96 md:h-[500px]">
-                  <img
-                    src="/best1.jpg"
+                  <Image
+                    src="/images/best1.jpg"
                     alt="Wedding couple portrait"
+                    width={800}
+                    height={1000}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -486,9 +492,11 @@ export default function PhotographyWebsite() {
                 className="col-span-6 md:col-span-3 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-50 md:h-60">
-                  <img
-                    src="IMG_3.JPG"
+                  <Image
+                    src="/images/IMG_3.JPG"
                     alt="Wedding rings detail"
+                    width={600}
+                    height={800}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -504,9 +512,11 @@ export default function PhotographyWebsite() {
                 className="col-span-6 md:col-span-3 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
-                  <img
-                    src="/image2.jpg"
+                  <Image
+                    src="/images/image2.JPG"
                     alt="Wedding bouquet"
+                    width={600}
+                    height={800}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -522,9 +532,11 @@ export default function PhotographyWebsite() {
                 className="col-span-12 md:col-span-6 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
-                  <img
-                    src="/best2.jpg"
+                  <Image
+                    src="/images/best2.jpg"
                     alt="Wedding ceremony"
+                    width={800}
+                    height={400}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -540,9 +552,11 @@ export default function PhotographyWebsite() {
                 className="col-span-4 md:col-span-2 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-32 md:h-40">
-                  <img
-                    src="/IMG_3.JPG"
+                  <Image
+                    src="/images/IMG_3.JPG"
                     alt="Wedding detail"
+                    width={400}
+                    height={400}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -558,9 +572,11 @@ export default function PhotographyWebsite() {
                 className="col-span-8 md:col-span-4 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-32 md:h-40">
-                  <img
-                    src="/image2.jpg"
+                  <Image
+                    src="/images/image2.JPG"
                     alt="Wedding table setting"
+                    width={600}
+                    height={400}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -594,9 +610,11 @@ export default function PhotographyWebsite() {
                 className="col-span-12 md:col-span-4 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-96 md:h-[500px]">
-                  <img
-                    src="/image1.jpg"
+                  <Image
+                    src="/images/image1.JPG"
                     alt="Prewedding couple"
+                    width={800}
+                    height={1000}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -612,9 +630,11 @@ export default function PhotographyWebsite() {
                 className="col-span-12 md:col-span-4 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-69 md:h-96">
-                  <img
-                    src="/home3.jpg"
+                  <Image
+                    src="/images/home3.jpg"
                     alt="Prewedding portrait"
+                    width={800}
+                    height={1000}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -631,9 +651,11 @@ export default function PhotographyWebsite() {
                   className="group cursor-pointer"
                 >
                   <div className="relative overflow-hidden bg-gray-100 h-32 md:h-44">
-                    <img
-                      src="/best2.jpg"
+                    <Image
+                      src="/images/best2.jpg"
                       alt="Prewedding moment"
+                      width={400}
+                      height={300}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -648,9 +670,11 @@ export default function PhotographyWebsite() {
                   className="group cursor-pointer"
                 >
                   <div className="relative overflow-hidden bg-gray-100 h-32 md:h-44">
-                    <img
-                      src="/best3.jpg"
+                    <Image
+                      src="/images/best3.jpg"
                       alt="Prewedding detail"
+                      width={400}
+                      height={300}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -685,9 +709,11 @@ export default function PhotographyWebsite() {
                 className="col-span-12 md:col-span-8 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-64 md:h-80">
-                  <img
-                    src="/mat1.jpg"
+                  <Image
+                    src="/images/mat1.jpg"
                     alt="Maternity portrait"
+                    width={1000}
+                    height={600}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -703,9 +729,11 @@ export default function PhotographyWebsite() {
                 className="col-span-12 md:col-span-4 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-64 md:h-80">
-                  <img
-                    src="mat2.jpg"
+                  <Image
+                    src="/images/mat2.jpg"
                     alt="Maternity detail"
+                    width={600}
+                    height={600}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -721,9 +749,11 @@ export default function PhotographyWebsite() {
                 className="col-span-4 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
-                  <img
-                    src="/mat3.jpg"
+                  <Image
+                    src="/images/mat3.jpg"
                     alt="Maternity moment"
+                    width={400}
+                    height={400}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -738,9 +768,11 @@ export default function PhotographyWebsite() {
                 className="col-span-4 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
-                  <img
-                    src="/mat2.jpg"
+                  <Image
+                    src="/images/mat2.jpg"
                     alt="Maternity couple"
+                    width={400}
+                    height={400}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
@@ -755,9 +787,11 @@ export default function PhotographyWebsite() {
                 className="col-span-4 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
-                  <img
-                    src="/mat1.jpg"
+                  <Image
+                    src="/images/mat1.jpg"
                     alt="Maternity lifestyle"
+                    width={400}
+                    height={400}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
