@@ -325,7 +325,7 @@ export default function PhotographyWebsite() {
             className="mb-12"
           >
             <div className="w-16 h-px bg-white mx-auto mb-4"></div>
-            <p className="text-sm md:text-base tracking-widest font-light">SR_WEDDING PHOTOGRAPHY</p>
+            <p className="text-sm md:text-base tracking-widest font-light">SR_WEDDING_FILMS</p>
             <div className="w-16 h-px bg-white mx-auto mt-4"></div>
           </motion.div>
 
