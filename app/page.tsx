@@ -33,11 +33,18 @@ export default function PhotographyWebsite() {
   const [newRating, setNewRating] = useState(0)
   const [feedback, setFeedback] = useState("")
   const [activeSection, setActiveSection] = useState("home")
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const { scrollYProgress } = useScroll()
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"])
 
   useEffect(() => {
+    if (!isMounted) return;
+
     const handleScroll = () => {
       const sections = ["home", "about", "portfolio", "services", "shoots", "testimonials", "contact"]
       const scrollPosition = window.scrollY + 100
@@ -56,7 +63,7 @@ export default function PhotographyWebsite() {
 
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+  }, [isMounted])
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
@@ -438,7 +445,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-50 md:h-60">
                   <Image
-                    src="/images/pre2.JPG"
+                    src="/images/pre2.jpg"
                     alt="Wedding rings detail"
                     width={600}
                     height={800}
@@ -807,7 +814,7 @@ export default function PhotographyWebsite() {
       </section>
 
       {/* Blog Section */}
-      <section id="videos" className="py-24">
+      {/* <section id="videos" className="py-24">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -863,7 +870,7 @@ export default function PhotographyWebsite() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       {/* Testimonials Section */}
