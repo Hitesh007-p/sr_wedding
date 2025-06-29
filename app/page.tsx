@@ -416,11 +416,7 @@ export default function PhotographyWebsite() {
             {/* Asymmetric Grid Layout */}
             <div className="grid grid-cols-12 gap-4 h-auto">
               {/* Large image - spans 6 columns, 2 rows */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
-                viewport={{ once: true }}
+              <div
                 className="col-span-12 md:col-span-6 row-span-2 group cursor-pointer"
               >
                 <div className="relative overflow-hidden bg-gray-100 h-96 md:h-[500px]">
@@ -433,7 +429,7 @@ export default function PhotographyWebsite() {
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300" />
                 </div>
-              </motion.div>
+              </div>
 
               {/* Medium image - spans 3 columns */}
               <motion.div
