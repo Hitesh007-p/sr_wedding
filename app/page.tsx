@@ -33,11 +33,18 @@ export default function PhotographyWebsite() {
   const [newRating, setNewRating] = useState(0)
   const [feedback, setFeedback] = useState("")
   const [activeSection, setActiveSection] = useState("home")
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const { scrollYProgress } = useScroll()
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "30%"])
 
   useEffect(() => {
+    if (!isMounted) return;
+
     const handleScroll = () => {
       const sections = ["home", "about", "portfolio", "services", "shoots", "testimonials", "contact"]
       const scrollPosition = window.scrollY + 100
@@ -56,7 +63,7 @@ export default function PhotographyWebsite() {
 
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
+  }, [isMounted])
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
