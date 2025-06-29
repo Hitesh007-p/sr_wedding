@@ -29,7 +29,7 @@ interface VideoItem {
 export default function PhotographyWebsite() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [ratings, setRatings] = useState<RatingFeedback[]>([])
-  // const [averageRating, setAverageRating] = useState(4.8)
+  // ...existing code...
   const [newRating, setNewRating] = useState(0)
   const [feedback, setFeedback] = useState("")
   const [activeSection, setActiveSection] = useState("home")
@@ -83,38 +83,7 @@ export default function PhotographyWebsite() {
     }
   }
 
-  // const portfolioCategories = [
-  //   {
-  //     title: "Wedding",
-  //     subtitle: "Capturing your perfect day",
-  //     images: [
-  //       "/placeholder.svg?height=600&width=400",
-  //       "/placeholder.svg?height=400&width=600",
-  //       "/placeholder.svg?height=500&width=500",
-  //       "/placeholder.svg?height=700&width=500",
-  //     ],
-  //   },
-  //   {
-  //     title: "Prewedding",
-  //     subtitle: "Love stories before the big day",
-  //     images: [
-  //       "/placeholder.svg?height=500&width=400",
-  //       "/placeholder.svg?height=600&width=500",
-  //       "/placeholder.svg?height=400&width=600",
-  //       "/placeholder.svg?height=550&width=400",
-  //     ],
-  //   },
-  //   {
-  //     title: "Maternity",
-  //     subtitle: "Celebrating new beginnings",
-  //     images: [
-  //       "/placeholder.svg?height=600&width=400",
-  //       "/placeholder.svg?height=500&width=500",
-  //       "/placeholder.svg?height=400&width=600",
-  //       "/placeholder.svg?height=650&width=450",
-  //     ],
-  //   },
-  // ]
+  // ...existing code...
 
   const services = [
     {
@@ -155,31 +124,7 @@ export default function PhotographyWebsite() {
     },
   ]
 
-  // const blogPosts = [
-  //   {
-  //     title: "Planning Your Perfect Wedding Timeline",
-  //     excerpt:
-  //       "Essential tips for creating a photography timeline that captures every important moment of your special day.",
-  //     image: "/placeholder.svg?height=300&width=400",
-  //     date: "December 15, 2024",
-  //     category: "Wedding Tips",
-  //   },
-  //   {
-  //     title: "What to Wear for Your Engagement Session",
-  //     excerpt:
-  //       "Style guide and outfit ideas to help you look and feel your best during your engagement photography session.",
-  //     image: "/placeholder.svg?height=300&width=400",
-  //     date: "December 10, 2024",
-  //     category: "Style Guide",
-  //   },
-  //   {
-  //     title: "The Magic of Golden Hour Photography",
-  //     excerpt: "Understanding natural light and how to make the most of those perfect golden hour moments.",
-  //     image: "/placeholder.svg?height=300&width=400",
-  //     date: "December 5, 2024",
-  //     category: "Photography Tips",
-  //   },
-  // ]
+  // ...existing code...
 
   // Example videos array
   const videos: VideoItem[] = [
