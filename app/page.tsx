@@ -371,7 +371,7 @@ export default function PhotographyWebsite() {
               viewport={{ once: true }}
             >
               <Image
-                src="/images/self1.jpg"
+                src="/self1.jpg"
                 alt="cine_Bhimraj"
                 width={800}
                 height={1000}
@@ -473,7 +473,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-96 md:h-[500px]">
                   <Image
-                    src="/images/best1.jpg"
+                    src="/best1.jpg"
                     alt="Wedding couple portrait"
                     width={800}
                     height={1000}
@@ -493,7 +493,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-50 md:h-60">
                   <Image
-                    src="/images/IMG_3.JPG"
+                    src="/IMG_3.JPG"
                     alt="Wedding rings detail"
                     width={600}
                     height={800}
@@ -513,7 +513,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
                   <Image
-                    src="/images/image2.JPG"
+                    src="/image2.JPG"
                     alt="Wedding bouquet"
                     width={600}
                     height={800}
@@ -533,7 +533,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
                   <Image
-                    src="/images/best2.jpg"
+                    src="/best2.jpg"
                     alt="Wedding ceremony"
                     width={800}
                     height={400}
@@ -553,7 +553,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-32 md:h-40">
                   <Image
-                    src="/images/IMG_3.JPG"
+                    src="/IMG_3.JPG"
                     alt="Wedding detail"
                     width={400}
                     height={400}
@@ -573,7 +573,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-32 md:h-40">
                   <Image
-                    src="/images/image2.JPG"
+                    src="/image2.JPG"
                     alt="Wedding table setting"
                     width={600}
                     height={400}
@@ -611,7 +611,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-96 md:h-[500px]">
                   <Image
-                    src="/images/image1.JPG"
+                    src="/image1.JPG"
                     alt="Prewedding couple"
                     width={800}
                     height={1000}
@@ -631,7 +631,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-69 md:h-96">
                   <Image
-                    src="/images/home3.jpg"
+                    src="/home3.jpg"
                     alt="Prewedding portrait"
                     width={800}
                     height={1000}
@@ -652,7 +652,7 @@ export default function PhotographyWebsite() {
                 >
                   <div className="relative overflow-hidden bg-gray-100 h-32 md:h-44">
                     <Image
-                      src="/images/best2.jpg"
+                      src="/best2.jpg"
                       alt="Prewedding moment"
                       width={400}
                       height={300}
@@ -671,7 +671,7 @@ export default function PhotographyWebsite() {
                 >
                   <div className="relative overflow-hidden bg-gray-100 h-32 md:h-44">
                     <Image
-                      src="/images/best3.jpg"
+                      src="/best3.jpg"
                       alt="Prewedding detail"
                       width={400}
                       height={300}
@@ -710,7 +710,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-64 md:h-80">
                   <Image
-                    src="/images/mat1.jpg"
+                    src="/mat1.jpg"
                     alt="Maternity portrait"
                     width={1000}
                     height={600}
@@ -730,7 +730,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-64 md:h-80">
                   <Image
-                    src="/images/mat2.jpg"
+                    src="/mat2.jpg"
                     alt="Maternity detail"
                     width={600}
                     height={600}
@@ -750,7 +750,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
                   <Image
-                    src="/images/mat3.jpg"
+                    src="/mat3.jpg"
                     alt="Maternity moment"
                     width={400}
                     height={400}
@@ -769,7 +769,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
                   <Image
-                    src="/images/mat2.jpg"
+                    src="/mat2.jpg"
                     alt="Maternity couple"
                     width={400}
                     height={400}
@@ -788,7 +788,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-48 md:h-60">
                   <Image
-                    src="/images/mat1.jpg"
+                    src="/mat1.jpg"
                     alt="Maternity lifestyle"
                     width={400}
                     height={400}
