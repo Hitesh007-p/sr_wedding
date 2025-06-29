@@ -438,7 +438,7 @@ export default function PhotographyWebsite() {
               >
                 <div className="relative overflow-hidden bg-gray-100 h-50 md:h-60">
                   <Image
-                    src="/images/pre2.JPG"
+                    src="/images/pre2.jpg"
                     alt="Wedding rings detail"
                     width={600}
                     height={800}
